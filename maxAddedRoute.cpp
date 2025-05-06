@@ -3,6 +3,12 @@
 #include <stack>
 using namespace std; 
 
+///////////////////////////////////////////////////
+//  Takes heap tree root node and traverses to find
+//  the highest sum resulting from addition of
+//  traversed node values
+///////////////////////////////////////////////////
+
 struct Node {
     int data;
     int length = 0; 
