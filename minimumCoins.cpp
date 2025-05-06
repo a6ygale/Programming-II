@@ -2,6 +2,11 @@
 #include <vector>
 using namespace std; 
 
+///////////////////////////////////////////////////////////////
+//  (greedy alg) find minimum amount of coins to give back using
+//  double int of change required and array of denominations. 
+//////////////////////////////////////////////////////////////
+
 void minimumCoins(double change, int* arr){
     int cents = change*100; //finds value of change in cents
     int denominations[5] = {100,25,10,5,1}; //value of coin at each respective arr index
