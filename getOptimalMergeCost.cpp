@@ -2,6 +2,13 @@
 #include <vector>
 using namespace std; 
 
+//////////////////////////////////////////////////////////////////////////////
+//  (greedy alg) you are given an array of rope lengths and are asked to
+//  combine them using a greedy algorithm. The cost of combining them is 
+//  equal to the sum of their lengths. You are tasked with creating a greedy
+//  algorithm to find the most optimal merge cost. 
+//////////////////////////////////////////////////////////////////////////////
+
 int getMin(vector<int> items){
     int i = 0; 
     int j = 0; 
