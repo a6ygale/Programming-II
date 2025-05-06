@@ -2,6 +2,12 @@
 #include <vector>
 using namespace std; 
 
+///////////////////////////////////////////////////////
+//   function used to multiply two matrices, 
+//   stored as integer vectors
+//////////////////////////////////////////////////////
+
+
 vector<vector<int>> multiplyMatrices(vector<vector<int>>& mat_1,vector<vector<int>>& mat_2){
     //this will be the new matrix 
     //outputted by the funct
