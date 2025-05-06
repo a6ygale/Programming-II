@@ -1,6 +1,9 @@
 #include <iostream>
 using namespace std; 
 
+////////////////////////////////////////////////////
+// function to remove duplicated int in sorted array
+///////////////////////////////////////////////////
 
 int deduplicate(int nums[], int n){
     
