@@ -1,6 +1,12 @@
 #include <iostream>
 using namespace std; 
 
+/////////////////////////////////////////////////////////////////////////////////////////////
+//   Implement a Queue that simulates a computer processor. Each operation
+//   has a process time associated to it. Implement the struct “operations” below that holds the
+//   process time of each operation and their operation name using linked lists.
+/////////////////////////////////////////////////////////////////////////////////////////////
+
 struct Operation {
     int ProcessTime;
     Operation* next ;
