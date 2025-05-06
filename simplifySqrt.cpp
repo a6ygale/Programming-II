@@ -1,6 +1,11 @@
 #include <iostream>
 using namespace std; 
 
+//////////////////////////////////////////////////
+//    Recursively solve for simplified radical
+//    form given an array of 2 int 
+//    ie. 5 sqrt (2) equivalent to [5,2]
+/////////////////////////////////////////////////
 
 
 void simplifySqrt(int radical[2],int divisor=-1){
