@@ -1,6 +1,12 @@
 #include <iostream>
 using namespace std; 
 
+
+///////////////////////////////////////////////////////
+//   function that checks if first linked list is
+//   a subset of the second linked list input
+///////////////////////////////////////////////////////
+
 //creates node structure
 struct Node {
     //to hold an integer value at each point
