@@ -2,6 +2,12 @@
 #include <vector>
 using namespace std; 
 
+//////////////////////////////////////////////////////////////////////////////
+//  Implement a function that finds the total latency of a digital circuit. 
+//  This function will take in a directed, acyclic, unweighted adjacency matrix 
+//  and the number of vertices, and returnthe latency (in cycles).
+///////////////////////////////////////////////////////////////////////////////
+
 int checkPath(int node,vector<vector<int>>& AdjMatrix) {
     //if on B node, return
     if (node == 1) return 0; 
