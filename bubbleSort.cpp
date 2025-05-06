@@ -1,9 +1,10 @@
 #include <iostream>
 using namespace std; 
 
+/////////////////////////////////////////////////////////////
+//  write a function to bubble sort array in descending order
+////////////////////////////////////////////////////////////
 
-//problem 4 
-//a 
 int i, j, tmp; 
 void bubbleSort( int nums[ ], int n ){
     //looping through all elements
@@ -21,17 +22,3 @@ void bubbleSort( int nums[ ], int n ){
 }
 
 
-
-int main(){
-    char ex_1[] = "(3+((4+5)*2))"; 
-    //char ex_1[] = "(4-(6/3))*((4/2)-5)"; 
-    int t = strlen(ex_1)-6; 
-
-    infixToPrefix(ex_1); 
-
-    for (int i=0; i<t; i++){
-        cout<<ex_1[i]<<endl; 
-    }
-        
-    return 0; 
-}
