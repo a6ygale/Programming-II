@@ -1,6 +1,11 @@
 #include <iostream>
 using namespace std; 
 
+///////////////////////////////////////
+//   function that adds and returns the 
+//   sum of all numbers in a linked list
+///////////////////////////////////////
+
 //creates node structure
 struct Node {
     //to hold an integer value at each point
